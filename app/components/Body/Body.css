@@ -1,0 +1,252 @@
+.main_content
+{
+    background-color: #f8fbfe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_top{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.top_btn{
+    background-color: #3054f5;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 30%;
+}
+
+.top_btn:hover{
+    opacity: 0.8;
+}
+
+.top_btn span {
+    color: white;
+    
+}
+
+.top_btn i {
+    color: white;
+    
+}
+
+.img_edit{
+    border-top-left-radius: 20px;
+      border-top-left-radius: 20px;
+}
+
+.img-box{
+   border-radius: 10px;
+    box-shadow: -3px 4px 12px -1px rgba(30,28,28,0.49);
+-webkit-box-shadow: -3px 4px 12px -1px rgba(30,28,28,0.49);
+-moz-box-shadow: -3px 4px 12px -1px rgba(30,28,28,0.49);
+}
+
+.img-rounded{
+    border-radius: 25px;
+}
+
+.card_custom{
+    position: absolute;
+    border-radius: 20px;
+    left: 5px;
+   bottom: -10%;
+    width: 250px;
+}
+
+.card_position{
+    left: 5px;
+    bottom: -10%;
+   box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-webkit-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-moz-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+}
+
+.card_position_spec{
+      right: 5px;
+    bottom: -10%;
+   box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-webkit-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-moz-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+}
+
+.__main_sec{
+    background-color: #020a36;
+    /* height: 90vh; */
+}
+
+.card_edit{
+box-shadow: -1px 0px 8px 2px rgba(203,203,203,0.34);
+-webkit-box-shadow: -1px 0px 8px 2px rgba(203,203,203,0.34);
+-moz-box-shadow: -1px 0px 8px 2px rgba(203,203,203,0.34);
+border: none;
+outline: none;
+border-radius: 10px;
+}
+
+.keyfeatures{
+    color: gray;
+}
+
+.card_button{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.card_spec{
+  border-radius: 20px;   
+}
+
+.plan_border{
+    background-color: #f5f7ff; 
+     border-radius: 20px;
+     color: #3054f5;
+     font-weight: 800;
+}
+
+.card_border{
+    border: 1px solid #b5c2fb;
+   
+}
+
+.hover_question:hover{
+    background-color:#d1d7f2;
+    outline: 2px solid #3054f5;
+    border-radius: 20px;
+    transition: all ease-in-out 0.1s;
+}
+
+.querstion_disable{
+    background-color: white;
+    border: none;
+}
+
+
+
+.querstion_active{
+ background-color:#d1d7f2;
+ border-radius: 20px;
+outline: 2px solid #3054f5;
+transition: all ease-in-out 0.2s;
+}
+
+.faq_card{
+    border: none;
+    border-radius: 20px;
+   box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-webkit-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-moz-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+}
+
+.animation_faq{
+    transition: all ease 1s;
+}
+
+
+
+.toggle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+.toggle .switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 32px;
+  margin: 0 20px;
+  border: 2px solid var(--sala-neutral-dark, #111111);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-border-radius: 34px;
+  -moz-border-radius: 34px;
+  border-radius: 34px;
+  cursor: pointer;
+}
+.toggle .switch:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: var(--sala-neutral-dark, #111111);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.toggle .switch.is-active {
+  background-color: var(--sala-neutral-dark, #111111);
+}
+.toggle .switch.is-active:before {
+  left: 26px;
+  background-color: var(--sala-neutral-white, #ffffff);
+}
+.toggle .discount {
+  font-family: "Covered By Your Grace", cursive;
+  position: relative;
+}
+.toggle .discount .discount-text {
+  position: absolute;
+  left: 0;
+  top: -30px;
+  white-space: nowrap;
+  padding-left: 50px;
+  font-size: 24px;
+  line-height: 1.63;
+  color: var(--sala-primary-navy, #0057fc);
+}
+.toggle .discount .discount-text:before {
+  content: "";
+  width: 40px;
+  height: 19px;
+  display: block;
+  background-image: url(/public/assets/Images/macaroni.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 5px;
+  top: 12px;
+}
+
+
+
+@media (max-width:600px)
+{
+  
+.card_position{
+    left: 25px;
+    bottom: -10%;
+   box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-webkit-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-moz-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+}
+
+.card_position_spec{
+      right: 40%;
+    bottom: -10%;
+   box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-webkit-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+-moz-box-shadow: -1px 0px 8px 2px rgba(244,244,244,0.88);
+}
+
+.top_btn{
+  
+    width: 75%;
+}
+
+}

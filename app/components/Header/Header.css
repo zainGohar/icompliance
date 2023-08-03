@@ -1,0 +1,47 @@
+.header{
+    background-color: #2047f4;
+    width: 100%;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header_btn{
+     background-color: #e5eeff; 
+     border-radius: 20px;
+     color: #3054f5;
+     font-weight: 800;
+     text-decoration: none;
+    display: inline-block;
+  box-sizing: border-box;
+}
+
+.header_btn:hover {
+  background-color: whitesmoke;
+  outline: 1px solid #3054f5; 
+  transition: background-color 0.3s, border 0.3s;
+
+}
+
+.top_color{
+  color: #f0932b;
+}
+
+.navbar_spec{
+  top: 6%;
+  z-index: 1111111111;
+}
+
+@media (max-width: 600px) {
+    .top_Text {
+        font-size: 13px;
+    }
+
+    .navbar_spec{
+  top: 5%;
+  z-index: 1111111111;
+}
+}
