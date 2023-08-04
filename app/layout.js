@@ -3,6 +3,9 @@ import MainHeader from './components/Header/MainHeader'
 import './globals.css'
 import { Inter } from 'next/font/google';
 import { Poppins } from 'next/font/google'
+import './globals.css'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 const inter = Inter({ subsets: ['latin'] })

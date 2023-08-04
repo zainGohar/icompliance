@@ -1,12 +1,12 @@
 import React from 'react'
 
-const page = () => {
+const Guide = () => {
   return (
-    <div>
+    <div className='pt-5 mt-5'>
       <h1>hello bhai</h1>
     </div>
   )
 }
 
-export default page
+export default Guide
 
