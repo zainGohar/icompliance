@@ -28,6 +28,7 @@ const NavHeader = () => {
     }, []);
 
     return (
+       //hello
 
         <Navbar expand="lg" className={`bg-body-tertiary position-fixed w-100 navbar_spec ${isScrolled ? 'navbar_spec' : ''}`} >
             <Container>
@@ -44,7 +45,7 @@ const NavHeader = () => {
                         <Nav.Link href="#mainsec">How its works</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
                         <Nav.Link href="#faq">FAQs</Nav.Link>
-                        
+                       
                     </Nav>
                     <Form className="d-flex">
                         <Link href="https://app.askdocs.com/" className='header_btn py-3 px-4'>Upload Documents</Link>
