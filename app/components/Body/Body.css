@@ -42,6 +42,7 @@
     box-shadow: -3px 4px 12px -1px rgba(30,28,28,0.49);
 -webkit-box-shadow: -3px 4px 12px -1px rgba(30,28,28,0.49);
 -moz-box-shadow: -3px 4px 12px -1px rgba(30,28,28,0.49);
+
 }
 
 .img-rounded{
@@ -250,3 +251,40 @@ transition: all ease-in-out 0.2s;
 }
 
 }
+
+
+.pill-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pill-input,
+.pill-dropdown,
+.pill-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+}
+
+.pill-input {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.pill-dropdown {
+  background-color: #f1f1f1;
+  flex: 1;
+}
+
+.pill-button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 20px
+}
+ 

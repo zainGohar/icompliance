@@ -1,9 +1,11 @@
+"use client"
 import React from 'react'
+import Testimonialslider from '../components/slider/testimonialslider'
 
 const page = () => {
   return (
     <div>
-      <h1>hello bhai</h1>
+     <Testimonialslider/>
     </div>
   )
 }

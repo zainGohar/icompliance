@@ -33,7 +33,7 @@ const NavHeader = () => {
         <Navbar expand="lg" className={`bg-body-tertiary position-fixed w-100 navbar_spec ${isScrolled ? 'navbar_spec' : ''}`} >
             <Container>
                 <Navbar.Brand href="/">
-                    <Image src={Logo} alt="logo_web" className="" width={180} height={50} />
+                    {/* <Image src={Logo} alt="logo_web" className="" width={180} height={50} /> */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

@@ -1,0 +1,23 @@
+.navhead{
+    font-size: 50px;
+    font-weight: bold;
+}
+.naav{
+    border-bottom: 2px solid lightgrey; 
+}
+.naav ul{
+    display: flex;
+    list-style: none;
+    
+}
+.naav ul li {
+    display: flex;
+    padding: 0px 90px;
+    font-size: 22px;
+}
+.tittle{
+    margin-top: 250px;
+    justify-content: center; 
+    align-items: center;    
+     /* height: 300px;   */
+    }
