@@ -2,13 +2,14 @@
 import React from 'react'
 import Testimonialslider from '../components/slider/testimonialslider'
 
-const page = () => {
+const Guide = () => {
   return (
     <div>
+      
      <Testimonialslider/>
     </div>
   )
 }
 
-export default page
+export default Guide
 
