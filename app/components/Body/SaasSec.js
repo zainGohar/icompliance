@@ -44,10 +44,10 @@ const SaasSec = () => {
           <span>Get Started</span>
           <i class="bi bi-chevron-right "></i>
         </Link>
-        <div className="">
+        {/* <div className="">
         <h1 className="mt-5 text-center">Live demo</h1>
         <h6>Creating a chatbot for <b>Product Hunt</b> by crawling the website and training the AI on its content. I can then embed the chatbot on the website!</h6>
-        </div>
+        </div> */}
         <div className="img-box">
           <video
             width="1250px"

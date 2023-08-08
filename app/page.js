@@ -20,12 +20,12 @@ export default function Home() {
     <>
       <div className='mt-5 pt-2'>
         <SaasSec />
-        <Steps/>
         <Navs/>
         <SaasSec1 />
+        <Steps/>
         <SaasSec2 />
-        <Testimonialslider/>
         <PricingSec />
+        <Testimonialslider/>
         <SassSec3 />
       </div>
     </>

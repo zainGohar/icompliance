@@ -45,6 +45,7 @@ const NavHeader = () => {
                         <Nav.Link href="#mainsec">How its works</Nav.Link>
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
                         <Nav.Link href="#faq">FAQs</Nav.Link>
+                        {/* <Nav.Link href="/guide">Guide</Nav.Link> */}
                        
                     </Nav>
                     <Form className="d-flex">

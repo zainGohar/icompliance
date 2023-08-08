@@ -78,7 +78,7 @@ const testimonialslider = () => {
         <Container key={user.id} className='mx-3 '>
           <Row>
             <Col className=' mt-5 h-100 d-flex flex-column'>
-             <Card className='mt-5 rounded border-0 h-100 mb-5 card bg-light'>
+             <Card className='mt-5 rounded border-0 h-100 mb-5 card bg-light'style={{borderBottom:"2px solid Grey"}} >
               <Card.Title className='mt-3 title'>{user.username}</Card.Title>
               <Card.Subtitle className="mt-2 c-subs">@mustafa hafeez</Card.Subtitle>
              <Card.Body>

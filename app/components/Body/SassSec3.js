@@ -25,9 +25,9 @@ const SassSec3 = () => {
 
     return (
         <div className='container mt-5 pt-5'>
-            <div className='container mt-5 py-5' id='faq'>
+            <div className='container mt-5' id='faq'>
                 <div className='text-center'>
-                    <h1 className='fw-bold'>Frequently Asked <br />  Questions</h1>
+                    <h1 className='fw-bold'>Frequently Asked Questions</h1>
                     <p className='keyfeatures'>Youve got Qs, we’ve got As.</p>
                 </div>
 

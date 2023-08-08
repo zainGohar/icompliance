@@ -8,7 +8,8 @@ export const SaasSec1 = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-6 col-12 d-flex flex-column justify-content-center align-items-md-start align-items-center">
+                <h1 style={{ fontSize:"35px", fontWeight:""}} className="  text-center  mt-5 py-3"> Key Features Content</h1>
+                <div className="col-md-6 col-12 d-flex flex-column justify-content-center align-items-md-start align-items-center mt-5">
                     <span className="text-primary fw-bold">FAST-TRACK RESEARCH</span>
                     <h1 className="fw-bold text-center text-md-start">Built to do the Heavy <br /> Lifting</h1>
                     <p className="w-75 keyfeatures text-center text-md-start">Upload your lengthy documents (PDF, DOCX, TXT, CSV) and Youtube link.

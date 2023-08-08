@@ -48,13 +48,13 @@ const PricingSec = () => {
                 </div>
             </div>
 
-            <div className='row d-flex  align-items-center mb-5'>
+            <div className='row d-flex align-items-center mb-5'>
                 {isToggled ? <>
                     {
                         yearlyPlan.map((item) => (
                             <>
 
-                                <div className='col-12 col-md-6 mb-5 mb-md-5 col-lg-6 d-flex justify-content-around'>
+                                <div className='col-12 col-md-6 mb-5 mb-md-5 col-lg-4 h-100 d-flex justify-content-around'>
                                     <div className={`card w-75 card_edit py-3 px-4 ${item.plan_type === "Popular" && "card_border"}`} key={item.id}>
                                         <div className='price_content d-flex gap-2'>
                                             <h1 className='fw-bold'>${item.amount / 100 / 12}</h1>
@@ -102,7 +102,7 @@ const PricingSec = () => {
                             monthlyPlan.map((item) => (
                                 <>
 
-                                    <div className='col-12 col-md-6 mb-5 mb-md-5 col-lg-6 d-flex justify-content-around'>
+                                    <div className='col-12 col-md-6 mb-5 mb-md-5 col-lg-4 h-100 d-flex justify-content-around'>
                                         <div className={`card w-75 card_edit py-3 px-4 ${item.plan === "Pro" && "card_border"}`} key={item.id}>
                                             <div className='price_content d-flex gap-2'>
                                                 <h1 className='fw-bold'>${item.amount / 100}</h1>

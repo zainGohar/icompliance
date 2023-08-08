@@ -15,7 +15,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'Ask Docs',
+  title: 'Icompliance',
   description: 'Ask question from your documents',
 }
 

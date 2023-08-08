@@ -13,15 +13,15 @@ const Navs = () => {
 
   return (
     <>
-    <div className='container'>
-      <div className='navhead text-center mt-5 mb-5'>
-        <p>Your benefits</p>
+    <div className='container mt-5'>
+      <div className='navhead text-center mt-5 mb-5' style={{fontSize:"30px"}}>
+        <h1>Our Products</h1>
       </div>
       <div className='naav mt-5 text-center'>
         <ul  className='mb-0'>
-            <li style={{borderBottom:activeTab==1?"1px solid blue":"none",paddingBottom:"10px"}} className='h-100' onClick={()=> handleNavLinkClick(1)}>Rise conversation rate</li>
-            <li style={{borderBottom:activeTab==2?"1px solid blue":"none",paddingBottom:"10px"}} onClick={()=> handleNavLinkClick(2)}>Save Labour costs</li>
-            <li  style={{borderBottom:activeTab==3?"1px solid blue":"none",paddingBottom:"10px"}} onClick={()=> handleNavLinkClick(3)}>Get Customer Insights
+            <li style={{borderBottom:activeTab==1?"1px solid blue":"none",paddingBottom:"10px",cursor:"pointer"}} className='h-100' onClick={()=> handleNavLinkClick(1)}>Medical Devices Regulations (MDR)</li>
+            <li style={{borderBottom:activeTab==2?"1px solid blue":"none",paddingBottom:"10px",cursor:"pointer"}} onClick={()=> handleNavLinkClick(2)}>Saftey</li>
+            <li  style={{borderBottom:activeTab==3?"1px solid blue":"none",paddingBottom:"10px",cursor:"pointer"}} onClick={()=> handleNavLinkClick(3)}>Environment 
             </li>
         </ul>
       </div>
@@ -31,18 +31,19 @@ const Navs = () => {
   <div className="row">
     <div className="col-lg-6">
       <div className=" tittle ">
-        <p style={{fontSize:"35px",fontWeight:'bold'}} className='text-center mr-5' >Get more customer insight</p>
-        <p  className='text-center' style={{fontSize:"20px"}}>Lörem ipsum bolundare exor. Nerade vipysa, inte pose. Åpybangen ivase Facebookfest. Benir spehet diabel.</p>
+        <p style={{fontSize:"35px",fontWeight:'bold'}} className='px-3' >Get more customer insight</p>
+        <p  className='px-3' style={{fontSize:"20px"}}>Lörem ipsum bolundare exor. Nerade vipysa, inte pose. Åpybangen ivase Facebookfest. Benir spehet diabel.</p>
       </div>
     </div>
     <div class="col-lg-6">
       <div class="align-item-center mt-5 mb-5">
       <Image
+      className=''
         src="/11.jpg"
         alt="Alternative text for the image"
-        width={250}
-        height={250}
-        layout="responsive"
+        width={500}
+        height={334}
+        
       />
       </div>
     </div>
@@ -53,8 +54,8 @@ const Navs = () => {
   <div className="row">
     <div className="col-lg-6">
       <div className=" tittle ">
-        <p style={{fontSize:"35px",fontWeight:'bold'}} className='text-center mr-5' >Rise conversation rate</p>
-        <p  className='text-center' style={{fontSize:"20px"}}>Lörem ipsum bolundare exor. Nerade vipysa, inte pose. Åpybangen ivase Facebookfest. Benir spehet diabel.</p>
+        <p style={{fontSize:"35px",fontWeight:'bold'}} className='px-3' >Rise conversation rate</p>
+        <p  className='px-3' style={{fontSize:"20px"}}>Lörem ipsum bolundare exor. Nerade vipysa, inte pose. Åpybangen ivase Facebookfest. Benir spehet diabel.</p>
       </div>
     </div>
     <div class="col-lg-6">
@@ -62,9 +63,8 @@ const Navs = () => {
       <Image
         src="/11.jpg"
         alt="Alternative text for the image"
-        width={250}
-        height={250}
-        layout="responsive"
+        width={500}
+        height={334}
       />
       </div>
     </div>
@@ -76,8 +76,8 @@ const Navs = () => {
   <div className="row">
     <div className="col-lg-6">
       <div className=" tittle ">
-        <p style={{fontSize:"35px",fontWeight:'bold'}} className='text-center mr-5' >Save Labour costs</p>
-        <p  className='text-center' style={{fontSize:"20px"}}>Lörem ipsum bolundare exor. Nerade vipysa, inte pose. Åpybangen ivase Facebookfest. Benir spehet diabel.</p>
+        <p style={{fontSize:"35px",fontWeight:'bold'}} className='px-3' >Save Labour costs</p>
+        <p  className='px-3' style={{fontSize:"20px"}}>Lörem ipsum bolundare exor. Nerade vipysa, inte pose. Åpybangen ivase Facebookfest. Benir spehet diabel.</p>
       </div>
     </div>
     <div class="col-lg-6">
@@ -85,9 +85,8 @@ const Navs = () => {
       <Image
         src="/11.jpg"
         alt="Alternative text for the image"
-        width={250}
-        height={250}
-        layout="responsive"
+        width={500}
+        height={334}
       />
       </div>
     </div>

@@ -1,7 +1,4 @@
-.navhead{
-    font-size: 50px;
-    font-weight: bold;
-}
+
 .naav{
     border-bottom: 2px solid lightgrey; 
 }
@@ -16,8 +13,7 @@
     font-size: 22px;
 }
 .tittle{
-    margin-top: 250px;
+    margin-top: 170px;
     justify-content: center; 
     align-items: center;    
-     /* height: 300px;   */
     }
