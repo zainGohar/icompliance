@@ -16,19 +16,19 @@ const SaasSec2 = () => {
                 <div className='col-md-4  col-12 d-flex flex-column gap-3'>
                     <div className='d-flex gap-4'>
                         <i class="bi bi-check-circle text-primary"></i>
-                        <p className='text-light'>PDF, DOCX, TXT, CSV, & Youtube Link</p>
+                        <p className='text-light'>Smart Regulation Identification</p>
                     </div>
                     <div className='d-flex gap-4'>
                         <i class="bi bi-check-circle text-primary"></i>
-                        <p className='text-light'>Summarize and c</p>
+                        <p className='text-light'>Real-time Notifications</p>
                     </div>
                     <div className='d-flex gap-4'>
                         <i class="bi bi-check-circle text-primary"></i>
-                        <p className='text-light'>Miltilingual</p>
+                        <p className='text-light'>Customized Compliance Reports</p>
                     </div>
                     <div className='d-flex gap-4'>
                         <i class="bi bi-check-circle text-primary"></i>
-                        <p className='text-light'>Group document questioning</p>
+                        <p className='text-light'>Automated Data Analysis </p>
                     </div>
                 </div>
             </div>

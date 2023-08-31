@@ -8,11 +8,10 @@ const SaasSec = () => {
     <div className="main_content mb-5 pb-5" id="mainsec">
       <div className="content_class pt-5 mt-5 d-flex flex-column justify-content-center align-items-center gap-3">
         <h1 className="heading_top text-center">
-          Get Insights From Your <br /> Documents In Seconds
+        Seamless Compliance: <br/>Navigating Regulations with AI Precision
         </h1>
         <p className="w-75  text-center keyfeatures">
-          AskDocs is your digital assistant that research and get actionable
-          insights from lengthy documents.
+        	Icomplaince is an ai tool: Select your region and ask whatever you want from regulations Mastering Compliance.<br/>In the Digital Age: AI-driven Regulations Management for Swift Identification of regulations, Real-time Notifications, and Flawless Compliance
         </p>
 
 

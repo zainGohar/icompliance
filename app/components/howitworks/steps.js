@@ -15,10 +15,10 @@ const Steps = () => {
                                 <p>01.</p>
                             </Card.Title>
                             <Card.Body className='card-subs text-center'>
-                                <p>Download app</p>
+                                <p>	Select Region</p>
                             </Card.Body>
                             <Card.Subtitle className='card-b text-center'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <p>The app begins by ingesting a variety of regulatory sources such as government websites, legal documents, and industry publications.<br/>The AI algorithms then analyze and extract key information</p>
                             </Card.Subtitle>
                         </Card>
                     </div>
@@ -28,10 +28,10 @@ const Steps = () => {
                                 <p>02.</p>
                             </Card.Title>
                             <Card.Body className='card-subs text-center'>
-                                <p>Create an account</p>
+                                <p>Signup</p>
                             </Card.Body>
                             <Card.Subtitle className='card-b text-center'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <p>The AI app continuously monitors the regulatory landscape for updates, amendments, and new regulations. When changes occur, the app promptly alerts users through notifications.</p>
                             </Card.Subtitle>
                         </Card>
                     </div>
@@ -41,10 +41,10 @@ const Steps = () => {
                                 <p>03.</p>
                             </Card.Title>
                             <Card.Body className='card-subs text-center'>
-                                <p>Enjoy</p>
+                                <p>Ask Regulation</p>
                             </Card.Body>
                             <Card.Subtitle className='card-b text-center'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <p>Based on the identified regulations and their updates, the AI app generates personalized compliance reports for businesses. These reports outline specific actions that need to be taken to achieve and maintain compliance. </p>
                             </Card.Subtitle>
                         </Card>
                     </div>
