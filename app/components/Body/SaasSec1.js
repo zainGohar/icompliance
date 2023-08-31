@@ -46,7 +46,7 @@ export const SaasSec1 = () => {
                 <div className="col-md-6 col-12 d-flex flex-column justify-content-center align-items-center align-items-md-start">
                     <span className="text-primary fw-bold">Customized Compliance Reports</span>
                     <h1 className="fw-bold">Reliable and<br />  Trustworthy </h1>
-                    <p className="w-75 keyfeatures text-md-start text-center">Tailored to your organization's profile, the app generates personalized compliance reports, outlining compliance actions needed to adhere to regulations while minimizing time for go-to-market.</p>
+                    <p className="w-75 keyfeatures text-md-start text-center">Tailored to your organization profile, the app generates personalized compliance reports, outlining compliance actions needed to adhere to regulations while minimizing time for go-to-market.</p>
                 </div>
                 <div className="col-md-6 col-12 d-flex justify-content-center align-items-end position-relative">
                     <Image src={HeroImage2} className="img-fluid img_edit" width={500} />
